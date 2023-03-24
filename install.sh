@@ -30,7 +30,7 @@ git clone https://github.com/longld/peda.git /opt/gdb_weaponize/peda
 # echo "source /opt/gdb_weaponize/peda/peda.py" > ~/.gdbinit
 
 printf "${G}[+] Downloading GEF...${NC}\n"
-wget -O /opt/gdb_weaponize/gef.py https://github.com/hugsy/gef/raw/master/gef.py
+wget -O /opt/gdb_weaponize/gef.py https://github.com/hugsy/gef/blob/dev/gef.py
 # echo "source /opt/gdb_weaponize/gef.py" > ~/.gdbinit
 
 printf "${G}[+] Downloading pwndbg...${NC}\n"
